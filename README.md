@@ -48,7 +48,7 @@ This repository contains an Express.js application that generates secure random 
 
 ## API Documentation
 
-This application uses Swagger for API documentation. Once the application is running, you can access the Swagger UI at `http://localhost:3000/api-docs`.
+This application uses Swagger for API documentation. Once the application is running, you can access the Swagger UI at `http://localhost:3001/`.
 
 ## Contributing
 
