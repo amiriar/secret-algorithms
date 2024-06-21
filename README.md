@@ -20,33 +20,25 @@ This repository contains an Express.js application that generates secure random 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/express-secret-key-generator.git
+    https://github.com/amiriar/secret-algorithms.git
     ```
 
 2. Install dependencies:
     ```sh
-    cd express-secret-key-generator
+    cd secret-algorithms
     npm install
     ```
-
-3. Configure environment variables:
-    - Create a `.env` file in the root directory.
-    - Add the following environment variables:
-      ```env
-      PORT=3000
-      COOKIE_SECRET_KEY=your-cookie-secret-key
-      ```
-
+    
 4. Run the application:
     ```sh
-    node app.js
+    npm run dev
     ```
 
 5. Access the endpoints:
-    - `http://localhost:3000/api`
-    - `http://localhost:3000/bit256`
-    - `http://localhost:3000/bit512`
-    - `http://localhost:3000/jwt`
+    - `http://localhost:3001/api`
+    - `http://localhost:3001/bit256`
+    - `http://localhost:3001/bit512`
+    - `http://localhost:3001/jwt`
 
 ## Technologies Used
 
